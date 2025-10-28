@@ -1,6 +1,15 @@
 from enum import Enum
 
 
+class Attribute(str, Enum):
+    Light = "Light"
+    Dark = "Dark"
+    Earth = "Earth"
+    Fire = "Fire"
+    Water = "Water"
+    Wind = "Wind"
+
+
 class Race(str, Enum):
     Aqua = "Aqua"
     Beast = "Beast"
